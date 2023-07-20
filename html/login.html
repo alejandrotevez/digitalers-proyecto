@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Regristrate</h3>
+        <div class="buttons">
+            <button class="twitter-btn"><a href="../index.html">Volver</a></button>
+            <button class="google-btn">
+                <picture>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png" alt="logo google">
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+        </div>
+        <div class="separator">
+            <hr>
+            <span>O</span>
+            <hr>
+        </div>
+        <form action="" method="">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Nombre</span>
+                    <input id="nombre" name="nombre">
+                </label>
+                <label for="nombre de usuario">
+                    <span>Nombre de usuario</span>
+                    <input id="nombre de usuario" name="nombre de usuario">
+            </div>
+                <label for="email">
+                    <span>Correo electronico</span>
+                    <input id="email" name="email" placeholder="email@gmail.com"
+                    required
+                    >
+                </label>
+                <label for="email">
+                    <span>confirmar correo electronico</span>
+                    <input id="email" name="email" placeholder="email@gmail.com"
+                    required
+                    >
+                </label>
+                <label for="password">
+                    <span>Contraseña</span>
+                    <input id="password" name="password" placeholder="6+ caracteres"
+                    type="password"
+                    required
+                    minlength="5"
+                    maxlength="20">
+                </label>
+                <label for="password">
+                    <span>confirmar contraseña</span>
+                    <input id="password" name="password" placeholder="6+ caracteres"
+                    type="password"
+                    required
+                    minlength="5"
+                    maxlength="20">
+                </label>
+                <label for="checkbox" class="checkbox-label">
+                    <input type="checkbox" id="checkbox"
+                    required>
+                    <span>Acepto las condiciones y el aviso legal</span>
+                </label>
+                <button type="submit" class="submit-btn">Crear Cuenta</button>
+        </form>
+    </div>
+</body>
+</html>
